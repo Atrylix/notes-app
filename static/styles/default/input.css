@@ -1,0 +1,40 @@
+@import '../variables.css';
+
+/* Default input */
+input {
+    border-radius: 40px;
+    border: 3px solid var(--color-primary-500);
+    background-color: transparent;
+    color: white;
+    transition: all 200ms ease-in-out;
+    padding: 0 15px 0 15px;
+}
+
+input:focus {
+    outline: none;
+    border-color: var(--color-text);
+    box-shadow: 0 0 var(--shadow-radius) var(--color-text);
+}
+
+/* Default checkbox */
+input[type="checkbox"] {
+    appearance: none;
+    width: 11px;
+    height: 11px;
+    background-color: var(--color-primary-500);
+    border-radius: 50%;
+    border: none;
+}
+
+input[type="checkbox"]:checked {
+    background-color: var(--color-text);
+    box-shadow: 0 0 var(--shadow-radius) var(--color-text);
+}
+
+input[type="checkbox"]:focus {
+    outline: auto;
+}
+
+input[type="checkbox"]:focus:not(:checked) {
+    box-shadow: none;
+}

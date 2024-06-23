@@ -1,0 +1,82 @@
+@import '../variables.css';
+
+/* Default button */
+button {
+    color: var(--color-text);
+    transition: all 200ms ease-in-out;
+    border-radius: 50px;
+    border: 3px solid white;
+    background-color: transparent;
+}
+
+button:hover, button:focus {
+    outline: none;
+    box-shadow: 0 0 var(--shadow-radius) var(--color-text);
+}
+
+/* Success button */
+button.success-btn.fill, button.success-btn.fill {
+    border-color: var(--color-success);
+    background-color: var(--color-success);
+    color: var(--color-text);
+}
+
+button.success-btn:hover, button.success-btn:focus {
+    border-color: var(--color-success);
+    background-color: var(--color-success);
+    box-shadow: 0 0 var(--shadow-radius) var(--color-success);
+    color: var(--color-text);
+}
+
+/* Info button */
+button.info-btn.fill, button.info-btn.fill {
+    border-color: var(--color-info);
+    background-color: var(--color-info);
+    color: var(--color-text); 
+}
+
+button.info-btn:hover, button.info-btn:focus {
+    border-color: var(--color-info);
+    background-color: var(--color-info);
+    box-shadow: 0 0 var(--shadow-radius) var(--color-info);
+    color: var(--color-text); 
+}
+
+/* Danger button */
+button.danger-btn.fill, button.danger-btn.fill {
+    border-color: var(--color-danger);
+    background-color: var(--color-danger);
+    color: var(--color-text);
+}
+
+button.danger-btn:hover, button.danger-btn:focus {
+    border-color: var(--color-danger);
+    background-color: var(--color-danger);
+    box-shadow: 0 0 var(--shadow-radius) var(--color-danger);
+    color: var(--color-text);
+}
+
+/* Caution button */
+button.caution-btn.fill, button.caution-btn.fill {
+    border-color: var(--color-caution);
+    background-color: var(--color-caution);
+    color: var(--color-text);
+}
+
+button.caution-btn:hover, button.caution-btn:focus {
+    border-color: var(--color-caution);
+    background-color: var(--color-caution);
+    box-shadow: 0 0 var(--shadow-radius) var(--color-caution);
+    color: var(--color-text);
+}
+
+
+/* Default achor */
+a {
+    color: var(--color-primary-500);
+}
+
+a:hover, a:focus {
+    outline: none;
+    color: var(--color-text);
+}

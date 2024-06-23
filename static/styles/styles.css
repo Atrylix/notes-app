@@ -1,0 +1,22 @@
+@import 'variables.css';
+
+/* MAIN */
+body {
+    background-color: var(--color-primary-100);
+    color: var(--color-text);
+    font-family: monospace;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100vh;
+}
+
+.error-message {
+    text-align: center;
+    color: var(--color-danger);
+}
+

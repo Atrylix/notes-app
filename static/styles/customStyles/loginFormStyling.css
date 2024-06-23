@@ -1,0 +1,71 @@
+@import '../variables.css';
+
+
+/* LOGIN DIV */
+.login-div {
+    align-self: center;
+    width: 100%;
+}
+
+.login-div > .title {
+    text-align: center;
+    font-size: max(30px, 2.5vw);
+}
+
+
+/* FORM STYLING */
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.form > * {
+    width: 30%;
+    min-width: 250px;
+    max-width: 50vw;
+}
+
+/* LOGIN FORM INPUTS */
+.form input[type="text"],
+.form input[type="password"],
+.form button[type="submit"] {
+    height: 3vw;
+    min-height: 50px;
+    font-size: max(15px, 1vw);
+}
+
+
+.form button[type="submit"] {
+    height: 65px;
+}
+
+/* FORM EXTRA OPTIONS */
+.form .options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form .options * {
+    margin-top: 0;
+    margin-bottom: 0;
+    transition: all 100ms ease-in-out;
+}
+
+.form .options input[type="checkbox"] {
+    width: max(11px, .75vw);
+    height: max(11px, .75vw);
+    border-radius: 10px;
+}
+
+.form .options p {
+    font-size: max(16px, 1vw);
+}
+
+.form .options a {
+    font-size: max(16px, 1vw);
+}
